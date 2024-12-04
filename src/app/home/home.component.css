@@ -1,0 +1,43 @@
+.home{
+    min-height:100 vh !important;
+}
+.carousel-item{
+    position: relative;
+}
+.home-content{
+        position: absolute;
+         top: 30%; 
+        left: 10%;
+        width: 100%;
+        padding: 20px;
+        z-index: 2;
+      width: 80%;
+
+}
+
+h1{
+   font-size: 60px; 
+   line-height: 1.3;
+   font-family: Playfair Display, Georgia, serif;
+   text-transform:capitalize ;
+   color: #000;
+   font-weight: 700;
+}
+.home-content button{
+    border: 1px solid #000;
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 10px 15px !important;
+    letter-spacing: 2px;
+margin: 1rem 0 !important;
+}
+
+@media (max-width: 768px) {
+    .home {
+      min-height: 100vh !important; 
+    }
+    h1{
+        font-size: 2rem;
+    }
+
+  }

@@ -1,0 +1,103 @@
+.skills{
+    display: flex;
+    justify-content: center ;
+align-items: center;
+    width: 100%;
+   min-height: 100vh;
+}
+.skills2{
+    width: 85%;
+
+}
+
+.progress{
+    height: 6px;
+}
+.progress-content{
+    margin-top: 2rem;
+}
+/* .progress-bar{
+    position: relative;
+    overflow: visible;
+}
+
+.progress1 .progress-bar:before {
+    content: "75%";
+    position: absolute;
+    height: 10px;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    z-index: 99999;
+    white-space: nowrap;
+}
+.progress-bar:after  {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background:black;
+border-radius: 50%;
+}
+.progress {
+    height: 6px;
+  }
+  
+
+  
+  .progress1 {
+    position: relative;
+    width: 100%;
+}
+
+.progress {
+    position: relative;
+    background-color: #f3f3f3;
+    height: 6px;
+    border-radius: 3px;
+}
+.progress1 {
+    position: relative;
+    width: 100%;
+}
+
+.progress {
+    position: relative;
+    background-color: #f3f3f3;
+    height: 6px;
+    border-radius: 3px;
+} */
+/* .progress1.progress-bar:after,  .progress1.progress-bar {
+    color: #2c98f0 !important;
+    background: #2c98f0 !important;
+} */
+/* .progress2.progress-bar:after,  .progress2.progress-bar {
+    color: #f9bf3f !important;
+    background:  #f9bf3f !important;
+} */
+
+.progress2 .progress-bar {
+    color: #f9bf3f !important;
+    background:  #f9bf3f !important;
+}
+.progress3 .progress-bar {
+    color: #2fa499 !important;
+    background:#2fa499  !important;
+}
+.progress4 .progress-bar {
+    color:#ec5453 !important;
+    background: #ec5453  !important;
+}
+.progress5 .progress-bar {
+    color: #a84cb8!important;
+    background:  #a84cb8 !important;
+}
+.progress6 .progress-bar {
+    color: #4054b2 !important;
+    background:#4054b2   !important;
+}

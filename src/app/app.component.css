@@ -1,0 +1,19 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  
+  .col-md-3, .col-md-9 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  @media (max-width: 768px){
+    .col-md-9 {
+        margin-top: 5rem !important;
+    }
+  }
+  

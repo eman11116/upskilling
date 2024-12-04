@@ -1,0 +1,42 @@
+<div class="icons ">
+  <button class="hamburger" *ngIf="!isSidebarOpen" (click)="toggleSidebar()">
+    <span>&#9776;</span>
+  </button>
+  <div class="close-icon" *ngIf="isSidebarOpen" (click)="toggleSidebar()">
+    <i class="fas fa-times"></i>
+  </div>
+</div>
+
+<div class="sidebar" [ngClass]="{'open': isSidebarOpen}">
+  <div class="sidebar2">
+    <div class="sidebarContent">
+      <img src="../../assets/about-BgAkqdr2.jpg " class="">
+      <h2>Jackson Ford</h2>
+      <p><a href="#">UI/UX/Designer</a> in Philippines</p>
+    </div>
+    <nav>
+      <div>
+        <div class="">
+          <ul class=" me-auto mb-2 mb-lg-0 flex-column">
+            <li>
+              <a routerLink="home" routerLinkActive="active">Home</a>
+            </li>
+            <li>
+              <a routerLink="about" routerLinkActive="active">About</a>
+            </li>
+            <li>
+              <a routerLinkActive="active" routerLink="skills">Skills</a>
+            </li>
+            <li>
+              <a routerLinkActive="active" routerLink="experience">Experience</a>
+            </li>
+            <li>
+              <a routerLinkActive="active" routerLink="work">Work</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
